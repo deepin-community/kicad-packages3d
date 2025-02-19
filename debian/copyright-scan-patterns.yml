@@ -1,0 +1,23 @@
+---
+check:
+  suffixes:
+  - wrl
+  - step
+ignore:
+  pattern:
+  - /debian/
+  - CREDITS
+  - LICENSE
+  - Makefile
+  - MANIFEST
+  - README
+  - TODO
+  - /config(.guess|ure|.h.in)
+  suffixes:
+  - generic
+  - rst
+  - jpg
+  - txt
+  - install
+  - M
+  - m4

@@ -1,5 +1,387 @@
-template-repository (1.0-1) unstable; urgency=medium
+kicad-packages3d (8.0.7-1) unstable; urgency=medium
 
-  * Initial release
+  * [13b3ded] New upstream version 8.0.7
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Wed, 25 Dec 2024 08:00:57 +0200
+
+kicad-packages3d (8.0.6-1) unstable; urgency=medium
+
+  * [6790cbf] New upstream version 8.0.6
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Fri, 18 Oct 2024 19:52:30 +0200
+
+kicad-packages3d (8.0.5-1) unstable; urgency=medium
+
+  * [acdb94b] New upstream version 8.0.5
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Thu, 12 Sep 2024 17:54:45 +0200
+
+kicad-packages3d (8.0.4-1) unstable; urgency=medium
+
+  * [a752620] New upstream version 8.0.4
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Thu, 18 Jul 2024 16:35:59 +0200
+
+kicad-packages3d (8.0.3-1) unstable; urgency=medium
+
+  * [ed36dbe] New upstream version 8.0.3
+  * [7faee79] d/rules: Remove all *.md files from the library folder
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Wed, 05 Jun 2024 20:59:30 +0200
+
+kicad-packages3d (8.0.2-1) unstable; urgency=medium
+
+  * [5a44e18] New upstream version 8.0.2
+  * [3168f68] d/control: Increase Standards-Version to 4.7.0
+    + No further changes needed.
+  * [d6f5560] d/control: Set Breaks on kicad << 8.0.1
+    (Closes: #1068408, #1067884)
+  * [9eba9b1] d/copyright: Remove lo longer existing entries
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Wed, 01 May 2024 13:51:10 +0200
+
+kicad-packages3d (8.0.1-1) unstable; urgency=medium
+
+  * [07d2757] New upstream version 8.0.1
+  * [ebea210] d/control: Bump recommended version to >= 8.0.1~
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 17 Mar 2024 14:37:27 +0100
+
+kicad-packages3d (7.0.11-1) unstable; urgency=medium
+
+  * [bc1ae26] New upstream version 7.0.11
+  * [696744b] d/copyright: Update year data
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Fri, 23 Feb 2024 20:13:10 +0100
+
+kicad-packages3d (7.0.10-1) unstable; urgency=medium
+
+  * [64374d8] New upstream version 7.0.10
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 31 Dec 2023 10:52:26 +0100
+
+kicad-packages3d (7.0.9-1) unstable; urgency=medium
+
+  * [49e4302] New upstream version 7.0.9
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Thu, 16 Nov 2023 21:57:29 +0100
+
+kicad-packages3d (7.0.8-1) unstable; urgency=medium
+
+  * [4dd17c1] New upstream version 7.0.8
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 08 Oct 2023 11:52:32 +0200
+
+kicad-packages3d (7.0.7-1) unstable; urgency=medium
+
+  * [d0d8a27] New upstream version 7.0.7
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Tue, 15 Aug 2023 21:58:49 +0200
+
+kicad-packages3d (7.0.6-1) unstable; urgency=medium
+
+  * [204a757] New upstream version 7.0.6
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 09 Jul 2023 10:40:27 +0200
+
+kicad-packages3d (7.0.2-2) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Mon, 12 Jun 2023 18:14:21 +0200
+
+kicad-packages3d (7.0.2-1) experimental; urgency=medium
+
+  * [77771dc] New upstream version 7.0.2
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Thu, 20 Apr 2023 20:22:39 +0200
+
+kicad-packages3d (7.0.1-1) experimental; urgency=medium
+
+  * [4c4fc51] New upstream version 7.0.1
+  * [0b70549] d/control: Bump recommended version to >= 7.0.1~
+  * [9ba21be] d/copyright: Update entries and year data
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 12 Mar 2023 12:33:04 +0100
+
+kicad-packages3d (6.0.10-1) unstable; urgency=medium
+
+  * [49171ea] New upstream version 6.0.10
+  * [e748471] d/control: Increase Standards-Version to 4.6.2
+    + No further changes needed.
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Thu, 29 Dec 2022 19:57:32 +0100
+
+kicad-packages3d (6.0.8-1) unstable; urgency=medium
+
+  * [0ef931e] New upstream version 6.0.8
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Thu, 06 Oct 2022 18:54:00 +0200
+
+kicad-packages3d (6.0.7-1) unstable; urgency=medium
+
+  * [cbe3b80] New upstream version 6.0.7
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 30 Jul 2022 14:50:10 +0200
+
+kicad-packages3d (6.0.6-1) unstable; urgency=medium
+
+  * [808f7fe] New upstream version 6.0.6
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Tue, 21 Jun 2022 19:23:56 +0200
+
+kicad-packages3d (6.0.5-1) unstable; urgency=medium
+
+  * [63bf54d] New upstream version 6.0.5
+  * [d3357ce] d/control: Increase Standards-Version to 4.6.1
+    + No further changes needed.
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Mon, 30 May 2022 21:03:10 +0200
+
+kicad-packages3d (6.0.4-1) unstable; urgency=medium
+
+  * [49c45b4] New upstream version 6.0.4
+  * [9bbd0d8] d/copyright: Update copyright years
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 20 Mar 2022 10:28:58 +0100
+
+kicad-packages3d (6.0.2-1) unstable; urgency=medium
+
+  * [b5e76a2] New upstream version 6.0.2
+  * [a682149] d/s/metadata: Adding some starting data
+  * [39dc468] d/control: Adjust Vcs-Browser field
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 12 Feb 2022 11:01:59 +0100
+
+kicad-packages3d (6.0.0-1) unstable; urgency=medium
+
+  * Upload to unstable
+  * [ccec867] New upstream version 6.0.0
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 02 Jan 2022 12:13:39 +0100
+
+kicad-packages3d (6.0.0~rc1-1~exp1) experimental; urgency=medium
+
+  * [e699882] New upstream version 6.0.0~rc1
+  * [1847ad9] d/control: Increase Standards-Version to 4.6.0
+    + No further changes needed.
+  * [677fa78] d/copyright: Update information due release of 6.0.0-rc1
+  * [5466bdd] d/control: Use branch debian/experimental in Vcs-*
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 21 Nov 2021 22:40:15 +0100
+
+kicad-packages3d (6.0.0~20210410-1) experimental; urgency=medium
+
+  * [d569b6b] New upstream version 6.0.0~20210410
+  * [45c7766] d/control: Increase required kicad version >= 6.0.0~
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 10 Apr 2021 10:46:23 +0200
+
+kicad-packages3d (5.99.0~20210401-1) experimental; urgency=medium
+
+  * [10e5aaf] d/watch: update watch file to capture GitLab source
+    + The upstream VCS has moved to GitLab, this requires an update to the
+      watch file.
+  * [49e20b2] d/control: increase Standards-Version to 4.5.1
+    + No further changes needed.
+  * [a5f949e] d/gbp.conf: Adjust to debian/experimental
+  * [4f78825] New upstream version 5.99.0~20210401
+    + Use a snapshot version from 2021-04-01 as upstream version.
+  * [b19d7db] d/copyright: Update years on contributors
+  * [a422bfd] d/control: Increase required kicad version >= 5.99.0~
+  * [6106510] d/k-p.install: Adjust install folder
+    + The target folder for the 3d models has changed, this needs a
+      modification of the sequencer for installing data into the package.
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Fri, 02 Apr 2021 09:46:25 +0200
+
+kicad-packages3d (5.1.11-1) unstable; urgency=medium
+
+  * [10e5aaf] d/watch: update watch file to capture GitLab source
+  * [49e20b2] d/control: increase Standards-Version to 4.5.1
+    + No further changes needed.
+  * [f80ba51] d/gbp.conf: Adjust upstream branch to upstream/5.1.x
+  * [5c409fb] New upstream version 5.1.11
+    + This new version brings in NO modified or new footprints, it only
+      contains changes regarding the change of the default project URL to
+      http(s)://kicad.org
+  * [c0b92e6] d/control: Increase Standards-Version to 4.6.0
+    + No further changes needed.
+  * [8083f7f] d/copyright: Update information due release of 5.1.11
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 31 Oct 2021 13:31:09 +0100
+
+kicad-packages3d (5.1.7-1) unstable; urgency=medium
+
+  [ Jean-Samuel Reynaud ]
+  * [2cb08c3] d/README.source: Fixup c&p error
+
+  [ Carsten Schoenert ]
+  * [4dd7325] New upstream version 5.1.7
+  * [0656e46] copyright: add some additional information for cme script
+  * [0f32faa] copyright: update information due release of 5.1.7
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Fri, 25 Sep 2020 18:52:23 +0200
+
+kicad-packages3d (5.1.6-1) unstable; urgency=medium
+
+  * [078a78d] New upstream version 5.1.6
+  * [f740228] d/control: increase Standards-Version to 4.5.0
+    + No further changes needed.
+  * [2d7ab70] d/control: adding Rules-Requires-Root to source section
+  * [28c7e77] copyright: add some additional information for cme script
+    + By nature of the content there are a lot of updates within the source,
+      adjusting the YAML file for scan-copyright so it's easier to track the
+      changes by upstream automatically.
+  * [19dd5e2] copyright: update information due release of 5.1.6
+    + Incorporating the output of scan-copyrights into the copyright file.
+  * [86ac760] dh: move over to debhelper-compat
+    + Moving over to use debhelper-compat (13).
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Wed, 13 May 2020 09:48:18 +0200
+
+kicad-packages3d (5.1.5-1) unstable; urgency=medium
+
+  * [c7f818a] New upstream version 5.1.5
+  * [371b20f] d/control: increase Standards-Version to 4.4.1
+    + No further changes needed.
+  * [4121ded] d/control: adjust info about package size
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 17 Nov 2019 20:44:53 +0100
+
+kicad-packages3d (5.1.3-1) unstable; urgency=medium
+
+  * [9238250] New upstream version 5.1.3
+  * [e2e36fa] d/control: increase Standards-Version to 4.4.0
+    + No further changes needed.
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Wed, 24 Jul 2019 20:32:32 -0300
+
+kicad-packages3d (5.1.2-1) unstable; urgency=medium
+
+  * [1af24e3] New upstream version 5.1.2
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Thu, 25 Apr 2019 20:13:49 +0200
+
+kicad-packages3d (5.1.0-1) unstable; urgency=medium
+
+  * [674fff9] New upstream version 5.1.0
+  * [387d52f] d/control: increase Standards-Version to 4.3.0
+    + No further changes needed.
+  * [90c3af4] copyright: add some additional information for cme script
+    + Add some helping content into debian/fill.copyright.blanks.yml.
+  * [581a7ec] copyright: update information due release of 5.1.0
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Fri, 15 Mar 2019 20:15:27 +0100
+
+kicad-packages3d (5.0.2-1) unstable; urgency=medium
+
+  * [aeb1d03] New upstream version 5.0.2
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Thu, 06 Dec 2018 16:47:58 +0100
+
+kicad-packages3d (5.0.1-1) unstable; urgency=medium
+
+  * [0ecb5cc] New upstream version 5.0.1
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Fri, 12 Oct 2018 17:54:12 +0200
+
+kicad-packages3d (5.0.0-2) unstable; urgency=medium
+
+  * [a1039a1] d/control: increase Standards-Version to 4.2.1
+    + No further changes needed.
+  * [635326a] d/copyright: extend some legal notes for CC-BY-SA-4.0
+    + Enhancing the content of the CC-BY-SA-4.0 license text as the complete
+      full plain license text was missing and only the human readable text was
+      used.
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Fri, 31 Aug 2018 21:44:48 +0200
+
+kicad-packages3d (5.0.0-1) unstable; urgency=medium
+
+  * [70aff06] debian/control: increase Standards-Version to 4.1.5
+    + No further changes needed.
+  * [32ca496] Multi-Arch: mark kicad-templates foreign
+  * [0cda231] New upstream version 5.0.0
+  * [219c511] d/copyright: update information due upstream changes
+  * [1c0766c] d/rules: remove useless files CREDITS.md from folders
+    + Upstream is collecting the copyright information in a file CREDITS.md
+      within the folders. We ship these information in the copyright file and
+      don't need them..
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Fri, 20 Jul 2018 09:54:41 +0200
+
+kicad-packages3d (5.0.0~rc3-1) unstable; urgency=medium
+
+  * [6988770] d/watch: fix up matching regular expressions
+  * [b44f362] New upstream version 5.0.0~rc3
+  * [b1fe3b5] d/copyright: update information due upstream changes
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Thu, 28 Jun 2018 17:51:23 +0200
+
+kicad-packages3d (5.0.0~rc2-2) unstable; urgency=medium
+
+  * rebuild for unstable
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Thu, 31 May 2018 07:54:06 +0200
+
+kicad-packages3d (5.0.0~rc2-1) experimental; urgency=medium
+
+  * [755dd63] New upstream version 5.0.0~rc2
+  * [2d9c8ef] debian/control: increase Standards-Version to 4.1.4
+    + No further changes needed.
+  * [b874f19] debian/control: adjust field Maintainer due domain change
+    + The contact email address for the Debian Electronics Group has changed
+      to pkg-electronics-devel@alioth-lists.debian.net.
+  * [58757d8] copyright: add some additional information for cme script
+    + Add some helping content into debian/fill.copyright.blanks.yml.
+  * [021562f] copyright: update information due release of 5.0.0-RC2
+    + The changes to the upstream are reflected by this update to the copyright
+      file.
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 26 May 2018 11:00:05 +0200
+
+kicad-packages3d (5.0.0~rc1+20180318-1) experimental; urgency=medium
+
+  * [b1af77f] New upstream version 5.0.0~rc1+20180318
+    + Imported snapshot version from 18th March 2018.
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Mon, 19 Mar 2018 23:40:02 +0100
+
+kicad-packages3d (5.0.0~rc1-1) experimental; urgency=medium
+
+  * [a76ad2e] d/control: fixup VCS URLs
+  * [b96d94d] New upstream version 5.0.0~rc1
+  * [677ea80] d/control: adjusting B+R against previous kicad{-common} pkg
+    (Closes: #891012)
+  * [8c13f17] turning suggesting of kicad into a recommends
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Tue, 06 Mar 2018 18:07:20 +0100
+
+kicad-packages3d (0~2018.02.17-1) experimental; urgency=medium
+
+  * Initial upload (Closes: #888116)
+  * [6e36b89] debian/gbp.conf: we need to filter out some files
+    It seems upstream is adding sometimes files by accident which we don't
+    need and also don't want. So we filter them out while importing the
+    source.
+  * [8e5c249] New upstream version 0~2018.02.17
+  * [f7d18a0] d/copyright: be more precise on the details of source files
+    Thorsten Alteholz was right, there are also some GPL-3+ licensed files
+    inside the source. How could this not be noticed from me? :-/
+    So now added all the complete copyright holders with much more granularity.
+  * [66197fd] debian/rules: adding some overriding rules
+    Upstream ships now a CMakeLists.txt files that is triggering a build and
+    installation which we don't need. All files are plain text files which
+    doesn't need to be compiled. Saves resources on the buildd environment.
+  * [702c0dd] adding helper files for cme and scan-copyrights
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 17 Feb 2018 16:32:56 +0100
+
+kicad-packages3d (0~2018.01.27-1) experimental; urgency=medium
+
+  * [c815d7e] New upstream version 0~2018.01.27
+  * [fb0d0e2] first and basic Debianisation
+  * [ec95bb7] some fine tunings for Breaks and Suggests
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Thu, 01 Feb 2018 17:06:19 +0100

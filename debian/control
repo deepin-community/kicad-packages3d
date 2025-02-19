@@ -1,15 +1,48 @@
-Source: template-repository
-Section: unknown
+Source: kicad-packages3d
+Section: electronics
 Priority: optional
-Maintainer: Tsic404 <liuheng@deepin.org>
-Build-Depends: debhelper (>= 11)
-Standards-Version: 4.1.3
-Homepage: https://github.com/deepin-community/template-repository
-#Vcs-Browser: https://salsa.debian.org/debian/deepin-community-template-repository
-#Vcs-Git: https://salsa.debian.org/debian/deepin-community-template-repository.git
+Maintainer: Debian Electronics Team <pkg-electronics-devel@alioth-lists.debian.net>
+Uploaders:
+ Carsten Schoenert <c.schoenert@t-online.de>,
+ Jean-Samuel Reynaud <js.reynaud@gmail.com>,
+Build-Depends:
+ debhelper-compat (= 13),
+ cmake,
+Rules-Requires-Root: binary-targets
+Vcs-Git: https://salsa.debian.org/electronics-team/KiCad/kicad-packages3d.git -b debian/sid
+Vcs-Browser: https://salsa.debian.org/electronics-team/KiCad/kicad-packages3d/-/tree/debian/sid
+Standards-Version: 4.7.0
+Homepage: https://kicad.github.io/packages3d
 
-Package: template-repository
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Package: kicad-packages3d
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ ${misc:Depends},
+Recommends:
+ kicad (>= 8.0.1~),
+Breaks:
+ kicad (<< 8.0.1~),
+ kicad-common (<< 5.0.0~rc1+dfsg1-1~),
+Replaces:
+ kicad (<< 8.0.1~),
+ kicad-common (<< 5.0.0~rc1+dfsg1-1~),
+Description: 3D models for 3D viewer in KiCad's Pcbnew and Footprint Editor
+ Pcbnew is a powerful printed circuit board software and part of the
+ KiCad suite. Like Pcbnew the Footprint Editor is also part of KiCad.
+ The 3D models are provided as *.step and *.wrl files and intended to be
+ rendered by the Pcbnew and Footprint 3D viewer or other MCAD software.
+ .
+ The STEP files (*.step) are used for integration with MCAD software packages
+ (e.g. by openscad or freecad). The WRL files (*.wrl) are used for
+ photo-realistic rendering using KiCad's raytracing rendering engine.
+ .
+ The 3D models of this package are completely optional and not really needed
+ for developing of any PCB layout but they give the user a impressive
+ possibility to see how the PCB or the Footprint would look like.
+ .
+ This package is providing 3D Models for Pcbnew and the footprint editor
+ usable for KiCad >= 8.0.0.
+ .
+ Please note this package will use about 5.7GB of disk space! Ensure you have
+ enough free space on your PC or Laptop before you install the package.
