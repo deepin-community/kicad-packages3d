@@ -10,7 +10,7 @@ Comment: Like all KiCad libraries the license for the files is CC-BY-SA 4.0
  Material'."
 
 Files: *
-Copyright: 2018-2024, KiCad Community
+Copyright: 2018-2025, KiCad Community
 License: CC-BY-SA-4.0-with-exception
 
 Files: Battery.3dshapes/*
@@ -840,8 +840,6 @@ Files: Package_DFN_QFN.3dshapes/DFN-10-1EP_2x3mm_P0.5mm_EP0.64x2.4mm.step
  Package_DFN_QFN.3dshapes/DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm.wrl
  Package_DFN_QFN.3dshapes/DFN-6-1EP_3x3mm_P0.95mm_EP1.7x2.6mm.step
  Package_DFN_QFN.3dshapes/DFN-6-1EP_3x3mm_P0.95mm_EP1.7x2.6mm.wrl
- Package_DFN_QFN.3dshapes/DFN-8-1EP_2x2mm_P0.45mm_EP0.64x1.38mm.step
- Package_DFN_QFN.3dshapes/DFN-8-1EP_2x2mm_P0.45mm_EP0.64x1.38mm.wrl
  Package_DFN_QFN.3dshapes/DFN-8-1EP_2x2mm_P0.5mm_EP1.05x1.75mm.step
  Package_DFN_QFN.3dshapes/DFN-8-1EP_2x2mm_P0.5mm_EP1.05x1.75mm.wrl
  Package_DFN_QFN.3dshapes/DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm.step
@@ -916,8 +914,6 @@ Files: Package_DFN_QFN.3dshapes/DFN-10-1EP_2x3mm_P0.5mm_EP0.64x2.4mm.step
  Package_DFN_QFN.3dshapes/QFN-36-1EP_6x6mm_P0.5mm_EP3.7x3.7mm.wrl
  Package_DFN_QFN.3dshapes/QFN-38-1EP_4x6mm_P0.4mm_EP2.65x4.65mm.step
  Package_DFN_QFN.3dshapes/QFN-38-1EP_4x6mm_P0.4mm_EP2.65x4.65mm.wrl
- Package_DFN_QFN.3dshapes/QFN-38-1EP_5x7mm_P0.5mm_EP3.15x5.15mm.step
- Package_DFN_QFN.3dshapes/QFN-38-1EP_5x7mm_P0.5mm_EP3.15x5.15mm.wrl
  Package_DFN_QFN.3dshapes/QFN-40-1EP_5x5mm_P0.4mm_EP3.6x3.6mm.step
  Package_DFN_QFN.3dshapes/QFN-40-1EP_5x5mm_P0.4mm_EP3.6x3.6mm.wrl
  Package_DFN_QFN.3dshapes/QFN-40-1EP_6x6mm_P0.5mm_EP4.6x4.6mm.step
@@ -1588,7 +1584,7 @@ Copyright: 2017-2021, kicad StepUp
 License: CC-BY-SA-4.0-with-exception
 
 Files: debian/*
-Copyright: 2016-2024, Carsten Schoenert <c.schoenert@t-online.de>
+Copyright: 2016-2025, Carsten Schoenert <c.schoenert@t-online.de>
   2017, 2018, Jean-Samuel Reynaud <js.reynaud@gmail.com>
 License: GPL-2+
 
