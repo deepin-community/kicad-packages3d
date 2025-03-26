@@ -1,3 +1,13 @@
+kicad-packages3d (9.0.0-1) unstable; urgency=medium
+
+  * [ab7f83d] New upstream version 9.0.0
+  * [938c3d4] d/control: Bump Bre/Sug/Rec versions to >=/<< 9.0.0~
+  * [781dc93] d/control: Increase Standards-Version to 4.7.1
+    + No further changes needed.
+  * [d4482a0] d/copyright: Update year data
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 23 Feb 2025 14:03:23 +0200
+
 kicad-packages3d (8.0.7-1) unstable; urgency=medium
 
   * [13b3ded] New upstream version 8.0.7
