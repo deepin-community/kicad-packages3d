@@ -1,3 +1,17 @@
+kicad-packages3d (9.0.2-1) unstable; urgency=medium
+
+  * [b622226] New upstream version 9.0.2
+  * [b13a667] d/control: Increase Standards-Version to 4.7.2
+    + No further changes needed.
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 10 May 2025 11:23:25 +0200
+
+kicad-packages3d (9.0.1-1) unstable; urgency=medium
+
+  * [c512712] New upstream version 9.0.1
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Fri, 04 Apr 2025 16:21:47 +0200
+
 kicad-packages3d (9.0.0-1) unstable; urgency=medium
 
   * [ab7f83d] New upstream version 9.0.0
