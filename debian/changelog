@@ -1,3 +1,56 @@
+kicad-packages3d (10.0.0-1) unstable; urgency=medium
+
+  * [ebc7a63] New upstream version 10.0.0
+  * [5c3cfb8] d/control: Bump Bre/Sug/Rec versions to >=/<< 10.0.0~
+  * [7f5317d] d/control: Remove Rules-Requires-Root
+    + We don't build any binaries so would need to set this to key to
+      Rules-Requires-Root: no
+      and that's now the default.
+  * [271e49f] d/control: Increase Standards-Version to 4.7.4
+    + No further changes needed.
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Mon, 06 Apr 2026 16:35:41 +0200
+
+kicad-packages3d (9.0.8-1) unstable; urgency=medium
+
+  * [bcc6d3b] New upstream version 9.0.8
+  * [56c9714] d/control: Drop field Priority: optional
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Mon, 16 Mar 2026 19:38:59 +0200
+
+kicad-packages3d (9.0.7-1) unstable; urgency=medium
+
+  * [4d6c3be] New upstream version 9.0.7
+  * [acb6384] d/control: Increase Standards-Version to 4.7.3
+    + No further changes needed.
+  * [d0fed7b] d/copyright: Update year data
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 03 Jan 2026 09:20:35 +0200
+
+kicad-packages3d (9.0.6-1) unstable; urgency=medium
+
+  * [bc0698a] New upstream version 9.0.6
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Mon, 03 Nov 2025 19:05:40 +0200
+
+kicad-packages3d (9.0.5-1) unstable; urgency=medium
+
+  * [2f88b1f] New upstream version 9.0.5
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Fri, 03 Oct 2025 12:30:40 +0200
+
+kicad-packages3d (9.0.4-1) unstable; urgency=medium
+
+  * [3467a2e] New upstream version 9.0.4
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 24 Aug 2025 08:38:36 +0200
+
+kicad-packages3d (9.0.3-1) unstable; urgency=medium
+
+  * [630e532] New upstream version 9.0.3
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Wed, 16 Jul 2025 12:09:49 +0200
+
 kicad-packages3d (9.0.2-1) unstable; urgency=medium
 
   * [b622226] New upstream version 9.0.2
